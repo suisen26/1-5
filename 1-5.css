@@ -7,21 +7,15 @@
 header {
   width: 100%;
   padding: 20px 0;
-  border-bottom: 1px solid grey;
-  margin: 0 auto;
   text-align: center;
-}
-
-header .heading {
-  font-size: 32px;
 }
 
 .nav-list {
   text-align: center;
   padding: 15px 0;
   margin: 0 auto;
-  width: 100%;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
 }
 
 .nav-list-item {
@@ -32,10 +26,9 @@ header .heading {
 
 .main {
   width: 800px;
-  height: 50px;
+  margin: 50px auto;
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .box1 {
@@ -64,31 +57,31 @@ header .heading {
 
 .box5 {
   width: 200px;
-  height: 400px;
+  height: 200px;
   background-color: #f3ffd8;
 }
 
 .box6 {
   width: 200px;
-  height: 400px;
+  height: 200px;
   background-color: #edffbe;
 }
 
 .box7 {
   width: 200px;
-  height: 400px;
+  height: 200px;
   background-color: #e9ffa5;
 }
 
 .box8 {
   width: 200px;
-  height: 400px;
+  height: 200px;
   background-color: #e4ff8d;
 }
 
 .box9 {
   width: 200px;
-  height: 00px;
+  height: 200px;
   background-color: #d9e5ff;
 }
 
